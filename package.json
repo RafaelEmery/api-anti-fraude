@@ -1,0 +1,17 @@
+{
+  "name": "desafio-upnid",
+  "version": "1.0.0",
+  "description": "API para verificar a probabilidade de uma transação ser fraudulenta",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Rafael Emery",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
