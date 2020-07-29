@@ -1,0 +1,212 @@
+[
+    {
+      "id": "5f20325488b6d415454025af",
+      "value": 768.29,
+      "paid_at": "2019-03-25 07:23:20",
+      "ip_location": "SC/BR",
+      "card_hold_name": "Ashlee Swanson",
+      "customer": {
+        "id": "5f203254077bb9e7bae8056f",
+        "name": "Ashlee Swanson",
+        "birth_date": "2005-04-18",
+        "state": "SC/BR",
+        "phone": "48 98466-8473"
+      }
+    },
+    {
+      "id": "5f203254b9d016f51b5bdd5c",
+      "value": 78.22,
+      "paid_at": "2015-05-13 09:30:25",
+      "ip_location": "SP/BR",
+      "card_hold_name": "Eddie Wilcox",
+      "customer": {
+        "id": "5f203254e2c72787030d61aa",
+        "name": "Eddie Wilcox",
+        "birth_date": "1998-09-21",
+        "state": "SP/BR",
+        "phone": "11 98398-511"
+      }
+    },
+    {
+      "id": "5f2032546fb8044cc017ad6f",
+      "value": 290.39,
+      "paid_at": "2015-08-10 09:16:26",
+      "ip_location": "RJ/BR",
+      "card_hold_name": "Carroll Hoffman",
+      "customer": {
+        "id": "5f203254cb0977c95b1cea35",
+        "name": "Carroll Hoffman",
+        "birth_date": "2001-02-12",
+        "state": "RJ/BR",
+        "phone": "21 98648-4332"
+      }
+    },
+    {
+      "id": "5f2032543a555eed8e492d10",
+      "value": 76.39,
+      "paid_at": "2016-12-17 16:20:34",
+      "ip_location": "SP/BR",
+      "card_hold_name": "Walters Benson",
+      "customer": {
+        "id": "5f203254ceefc786dc91cc51",
+        "name": "Walters Benson",
+        "birth_date": "1998-06-02",
+        "state": "SP/BR",
+        "phone": "11 98761-6181"
+      }
+    },
+    {
+      "id": "5f203254749ea23aea4c6d5f",
+      "value": 147.07,
+      "paid_at": "2020-01-22 11:26:31",
+      "ip_location": "MT/BR",
+      "card_hold_name": "Karen Cox",
+      "customer": {
+        "id": "5f203254ccb64fff7537ee8e",
+        "name": "Karen Cox",
+        "birth_date": "2002-08-10",
+        "state": "MT/BR",
+        "phone": "65 98823-1023"
+      }
+    },
+    {
+      "id": "5f2032548c8426d37b28d83e",
+      "value": 9.86,
+      "paid_at": "2020-04-12 15:58:04",
+      "ip_location": "BH/BR",
+      "card_hold_name": "Laverne Jimenez",
+      "customer": {
+        "id": "5f203254d2801477b463a1cd",
+        "name": "Laverne Jimenez",
+        "birth_date": "1990-02-24",
+        "state": "BH/BR",
+        "phone": "71 98687-3800"
+      }
+    },
+    {
+      "id": "5f203254a925e6f711059032",
+      "value": 67.24,
+      "paid_at": "2014-11-18 12:00:16",
+      "ip_location": "MT/BR",
+      "card_hold_name": "Cox Burns",
+      "customer": {
+        "id": "5f20325459d97755b5902a13",
+        "name": "Cox Burns",
+        "birth_date": "1997-11-07",
+        "state": "RS/BR",
+        "phone": "51 98410-8151"
+      }
+    },
+    {
+      "id": "5f20325425b031aaf3701093",
+      "value": 322.17,
+      "paid_at": "2016-12-29 11:53:08",
+      "ip_location": "RJ/BR",
+      "card_hold_name": "Katrina Combs",
+      "customer": {
+        "id": "5f203254c8a2e9df5518aa32",
+        "name": "Katrina Combs",
+        "birth_date": "1984-05-22",
+        "state": "RJ/BR",
+        "phone": "71 98093-3306"
+      }
+    },
+    {
+      "id": "5f203254fc866761a0ba7866",
+      "value": 296.91,
+      "paid_at": "2017-12-18 14:15:15",
+      "ip_location": "SP/BR",
+      "card_hold_name": "Maynard Malone",
+      "customer": {
+        "id": "5f203254f0d8df69c7af278e",
+        "name": "Holt Garrison",
+        "birth_date": "1999-06-20",
+        "state": "SP/BR",
+        "phone": "11 98386-2093"
+      }
+    },
+    {
+      "id": "5f2032540eed3344738ddf8a",
+      "value": 987.41,
+      "paid_at": "2019-11-03 02:22:08",
+      "ip_location": "RS/BR",
+      "card_hold_name": "Geneva Velazquez",
+      "customer": {
+        "id": "5f2032546903734d7c6e0d00",
+        "name": "Geneva Velazquez",
+        "birth_date": "1985-02-15",
+        "state": "RS/BR",
+        "phone": "51 98667-1390"
+      }
+    },
+    {
+      "id": "5f203254365fb17d4a8eecb7",
+      "value": 879.33,
+      "paid_at": "2016-12-15 11:54:52",
+      "ip_location": "RS/BR",
+      "card_hold_name": "Pierce Macdonald",
+      "customer": {
+        "id": "5f203254042eb908ffbd806a",
+        "name": "Bush White",
+        "birth_date": "1997-06-22",
+        "state": "PR/BR",
+        "phone": "65 98012-4213"
+      }
+    },
+    {
+      "id": "5f2032541d5cb0c90f8b4c0f",
+      "value": 304.47,
+      "paid_at": "2017-07-15 05:10:32",
+      "ip_location": "SC/BR",
+      "card_hold_name": "Ollie Davidson",
+      "customer": {
+        "id": "5f203254076b860b5aeefbc7",
+        "name": "James Ewing",
+        "birth_date": "1988-02-04",
+        "state": "RS/BR",
+        "phone": "47 98894-6669"
+      }
+    },
+    {
+      "id": "5f203254e4a69f55139fb5d2",
+      "value": 354.37,
+      "paid_at": "2016-02-13 10:51:03",
+      "ip_location": "MT/BR",
+      "card_hold_name": "Chase Hensley",
+      "customer": {
+        "id": "5f203254880cd9a0efa5c923",
+        "name": "Katelyn Webster",
+        "birth_date": "1994-12-09",
+        "state": "SC/BR",
+        "phone": "11 98018-4783"
+      }
+    },
+    {
+      "id": "5f203254245379f7e89aecc8",
+      "value": 365.07,
+      "paid_at": "2015-09-14 03:39:30",
+      "ip_location": "PR/BR",
+      "card_hold_name": "Cleveland Todd",
+      "customer": {
+        "id": "5f203254b7e5be7aff802102",
+        "name": "Cleveland Todd",
+        "birth_date": "1991-09-08",
+        "state": "PR/BR",
+        "phone": "65 98117-5724"
+      }
+    },
+    {
+      "id": "5f20325459b82a71bb5e7aec",
+      "value": 639.06,
+      "paid_at": "2019-10-13 02:33:15",
+      "ip_location": "PR/BR",
+      "card_hold_name": "Warren Richards",
+      "customer": {
+        "id": "5f203254042fa643c98a3be6",
+        "name": "Warren Richards",
+        "birth_date": "1985-09-29",
+        "state": "PR/BR",
+        "phone": "71 98901-4859"
+      }
+    }
+  ]
