@@ -1,23 +1,22 @@
-const transactions = require('../database/transactions.json');
+// const transactions = require('../database/transactions.json');
+const getScore = require('../utils/score');
 
 module.exports = {
 
-    //Getting all the transactions 
-    index(req, res) {
+    //Verificando a pontuação da transação
+    transaction(req, res, next) { 
+        try {
+            const { id } = req.body;
+            const score = getScore({
+                transaction: req.body
+            });
 
-        res.send({ transactions });
-    },
-
-    //Getting the score for all the transaction
-    score(req, res) {
-        // console.log(req.body);
-        
-        const { value, ip_location, card_hold_name } = req.body;
-        const { name, state, phone } = req.body.customer;
-
-        return res.send({
-            value, ip_location, card_hold_name, name, state, phone
-        });
+            return res.send({
+                id, score
+            });     
+        } catch (error) {
+           next(error) 
+        }
 
         return 0;
     }

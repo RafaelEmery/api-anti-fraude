@@ -11,10 +11,8 @@ routes.get('/test', (req, res) => {
 });
 
 routes
-    .get('/', TransactionController.index)
-    .post('/score', TransactionController.score);
-
-
+    // .get('/', TransactionController.index)
+    .post('/score', TransactionController.transaction);
 
 module.exports = routes;
 
