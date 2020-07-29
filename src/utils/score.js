@@ -29,6 +29,9 @@ module.exports = function getScore(params = {}) {
     }
 
     //Maior que a média de valor das transacoes
+    //A media foi obtida pelo arquivo .json disponibilizado
+    //Em uma aplicacao real, outros procedimentos devem ser feitos
+    //e talvez nao seja viavel calcular a media de valor
     if (value >= 372.41) {
         score += 10;
         console.log('Valor de compra alto: ', score);

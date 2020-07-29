@@ -27,7 +27,7 @@ A documentação foi gerada em HTML através do pacote Documentation.js. O arqui
 
 Para os testes, não houve a necessidade de automatizar ou implementar métodos rebuscados, porém usei o Postman para realiza-los. Criei uma *Collection* e **salvei os endpoints** para testar mais facilmente. Veja a imagem abaixo:
 
-![](collection-img.png)
+![](assets/collect-img.png)
 
 Na seção **Usando a API** você poderá ver uma imagem da requisição que verifica a transação
 
