@@ -17,6 +17,7 @@ Imagem da estrutura de pastas
 ### Pacotes
 - [Nodemon]()
 - [Express]()
+- [Documentation.js](https://github.com/documentationjs/documentation)
 
 ## Rodando o projeto
 

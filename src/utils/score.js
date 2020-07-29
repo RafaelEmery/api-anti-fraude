@@ -1,3 +1,8 @@
+/**
+ * Função auxiliar que implementa as regras e incrementa a pontuação (score) de acordo com as verificações
+ * @param {Object} params é um objeto contendo uma transação
+ * @returns {number} score (total da pontuação) para o risco de fraude
+ */
 module.exports = function getScore(params = {}) {
     const { value, paid_at, ip_location, card_hold_name } = params.transaction;
     const { name, birth_date, state } = params.transaction.customer;
@@ -23,7 +28,7 @@ module.exports = function getScore(params = {}) {
         console.log('Pagamento feito por menor de idade: ', score);
     }
 
-    //Maior que a média de valor
+    //Maior que a média de valor das transacoes
     if (value >= 372.41) {
         score += 10;
         console.log('Valor de compra alto: ', score);

@@ -3,7 +3,13 @@ const getScore = require('../utils/score');
 
 module.exports = {
 
-    //Usado para vizualizar as transações do arquivo
+    /**
+     * Endpoint que retorna todos as transações presentes em src/data/transactions.json
+     * @param {*} req requisição enviada
+     * @param {*} res resposta que a função irá retornar
+     * @param {*} next auxilia no tratamento de erros
+     * @returns {res} todas as transações do arquivo json
+     */
     index(req, res, next) {
         try {
             return res.send({ transactions });
@@ -13,16 +19,17 @@ module.exports = {
         }
     },
 
-    //Verificando a pontuação da transação
+    /**
+     * Endpoint que recebe um array e retorna a pontuação do risco de fraude
+     * @param {*} req requisição que contém o array no corpo
+     * @param {*} res resposta que a função irá retornar
+     * @param {*} next auxilia no tratamento de erros
+     * @returns {res} o id da transação e a pontuação (score)
+     */
     transaction(req, res, next) { 
         try {
             const { id } = req.body;
             const score = getScore({ transaction: req.body });
-
-            if (score > 80) {
-                //Retorna a resposta convencional com um warning e envia um email
-                //Chamar um função separada sendEmail()
-            }
 
             return res.send({ id, score }); 
                

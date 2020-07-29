@@ -9,6 +9,7 @@
   "author": "Rafael Emery",
   "license": "ISC",
   "dependencies": {
+    "documentation": "^13.0.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
