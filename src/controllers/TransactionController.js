@@ -17,12 +17,15 @@ module.exports = {
     transaction(req, res, next) { 
         try {
             const { id } = req.body;
-            const score = getScore({
-                transaction: req.body
-            });
+            const score = getScore({ transaction: req.body });
 
-            return res.send({ id, score });    
+            if (score > 80) {
+                //Retorna a resposta convencional com um warning e envia um email
+                //Chamar um função separada sendEmail()
+            }
 
+            return res.send({ id, score }); 
+               
         } catch (error) {
            next(error) 
         }

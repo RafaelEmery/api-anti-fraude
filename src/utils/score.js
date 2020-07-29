@@ -1,6 +1,6 @@
 module.exports = function getScore(params = {}) {
-    const { id, value, paid_at, ip_location, card_hold_name } = params.transaction;
-    const { name, birth_date, state, phone } = params.transaction.customer;
+    const { value, paid_at, ip_location, card_hold_name } = params.transaction;
+    const { name, birth_date, state } = params.transaction.customer;
     let score = 0;
 
     //Evidencias graves de fraude
