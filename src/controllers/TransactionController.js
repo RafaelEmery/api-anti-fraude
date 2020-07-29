@@ -1,7 +1,17 @@
-// const transactions = require('../database/transactions.json');
+const transactions = require('../data/transactions.json');
 const getScore = require('../utils/score');
 
 module.exports = {
+
+    //Usado para vizualizar as transações do arquivo
+    index(req, res, next) {
+        try {
+            return res.send({ transactions });
+
+        } catch (error) {
+            next(error)
+        }
+    },
 
     //Verificando a pontuação da transação
     transaction(req, res, next) { 
@@ -11,9 +21,8 @@ module.exports = {
                 transaction: req.body
             });
 
-            return res.send({
-                id, score
-            });     
+            return res.send({ id, score });    
+
         } catch (error) {
            next(error) 
         }
