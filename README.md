@@ -1,23 +1,35 @@
-# Desafio Upnid
+# API Anti-Fraude
 
 Aqui ficará um breve resumo (...)
 
-Imagem da estrutura de pastas
+![](assets/src-img.png)
 
-### Documentação
 
-### Testes
-
-## Tecnologias usadas
+### Tecnologias usadas
 
 - [Visual Studio Code]()
 - [Postman]()
 - [Node.js]()
 
 ### Pacotes
+
 - [Nodemon]()
 - [Express]()
 - [Documentation.js](https://github.com/documentationjs/documentation)
+
+## Documentação
+
+A documentação foi gerada em HTML através do pacote Documentation.js. O arquivo de documentação está em **docs/index.html**:
+
+![](assets/doc-img.png)
+
+## Testes
+
+Para os testes, não houve a necessidade de automatizar ou implementar métodos rebuscados, porém usei o Postman para realiza-los. Criei uma *Collection* e **salvei os endpoints** para testar mais facilmente. Veja a imagem abaixo:
+
+![](collection-img.png)
+
+Na seção **Usando a API** você poderá ver uma imagem da requisição que verifica a transação
 
 ## Rodando o projeto
 
@@ -40,7 +52,9 @@ npm start
 
 A principal funcionalidade está em um **endpoint que recebe via POST** um array contendo a transação a transação, e será retornado um array contendo o id da mesma e a **score**, que representa o risto de fraude. Veja um teste do Postman abaixo.
 
-[]()
+![](assets/postman-img.png)
+
+Acima, vemos um array de transação sendo passado e o array de resposta sendo retornado junto com um status 200 (OK).
 
 ## Algoritmo e pontuação
 
