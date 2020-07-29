@@ -1,5 +1,5 @@
 {
-  "name": "desafio-upnid",
+  "name": "api-anti-fraude",
   "version": "1.0.0",
   "description": "API para verificar a probabilidade de uma transação ser fraudulenta",
   "main": "index.js",

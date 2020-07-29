@@ -7,15 +7,16 @@ Aqui ficará um breve resumo (...)
 
 ### Tecnologias usadas
 
-- [Visual Studio Code]()
-- [Postman]()
-- [Node.js]()
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/)
+- [Node.js](https://nodejs.org/en/)
 
 ### Pacotes
 
-- [Nodemon]()
-- [Express]()
+- [Nodemon](https://nodemon.io/)
+- [Express.js](https://expressjs.com/pt-br/)
 - [Documentation.js](https://github.com/documentationjs/documentation)
+- [Celebrate](https://github.com/arb/celebrate)
 
 ## Documentação
 
@@ -29,7 +30,7 @@ Para os testes, não houve a necessidade de automatizar ou implementar métodos 
 
 ![](assets/collect-img.png)
 
-Na seção **Usando a API** você poderá ver uma imagem da requisição que verifica a transação
+Na seção **Usando a API** você poderá ver uma imagem da requisição que verifica a transação. Além disso, existem validações feitas com o Celebrate para a entrada correta de dados no endpoint.
 
 ## Rodando o projeto
 
@@ -69,15 +70,15 @@ Para realizar a pontuação, usei como base 4 parâmetros, presentes no arquivo 
 ## Gestão e organização
 
 Para conseguir ser mais produtivo no desenvolvimento, utilizei:
-- O [Trello]() para anotar requisitos/referencias e gerenciar tarefas.
-- A ferramenta e extensão do Chrome [Clockify]() para marcar e metrificar o tempo gasto. O tempo gasto total foi de XX:XX
+- O Trello para anotar requisitos/referencias e gerenciar tarefas.
+- A ferramenta e extensão do Chrome Clockify para marcar e metrificar o tempo gasto. O tempo gasto total foi de aproximadamente (pode ter sido um pouco mais) 5,2h, ou seja, **5 horas e 12 minutos**.
 - Commits pequenos e descritivos para complementar na gestão de tarefas
 
 ## Considerações finais
 
 - Inseri o *JSON* de transações no projeto para poder fazer uma requisição GET que retorna todas transações.
-- Sobre fugir ou nao do escopo
-- Sobre a experiencia
+- Busquei variar em algumas situações, como na validação para os parâmetros da requisição, mas procurei me manter no escopo. Acredito que devemos manter a solução simples.
+- Minha experiencia foi absolutamente "fora da caixa". Nunca havia pensado nas regra que envolviam a prevenção de fraudes em ecommerce. Foi divertido e aprendi muito!
 
 
 Feito com :hearts: para Upnid por [Rafael Emery](https://rafaelemery.github.io)
