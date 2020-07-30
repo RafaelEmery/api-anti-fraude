@@ -1,7 +1,5 @@
 # API Anti-Fraude
 
-Aqui ficará um breve resumo (...)
-
 ![](assets/src-img.png)
 
 
@@ -78,7 +76,8 @@ Para conseguir ser mais produtivo no desenvolvimento, utilizei:
 
 - Inseri o *JSON* de transações no projeto para poder fazer uma requisição GET que retorna todas transações.
 - Busquei variar em algumas situações, como na validação para os parâmetros da requisição, mas procurei me manter no escopo. Acredito que devemos manter a solução simples.
-- Minha experiencia foi absolutamente "fora da caixa". Nunca havia pensado nas regra que envolviam a prevenção de fraudes em ecommerce. Foi divertido e aprendi muito!
+- Minha experiencia foi absolutamente "fora da caixa". Nunca havia pensado nas regra que envolviam a prevenção de fraudes em ecommerce. Foi divertido e aprendi muito! Fico grato com a oportunidade!
+- Geralmente desenvolvo e escrevo em **inglês**, basta olhar meus outros repositórios :smile:
 
 
 Feito com :hearts: para Upnid por [Rafael Emery](https://rafaelemery.github.io)
